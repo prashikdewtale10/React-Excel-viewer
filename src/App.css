@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+   height: 100vh;
+   background-color: #fff;
+}
+
+
+.ExcelTable2007 {
+	border: 1px solid #B0CBEF;
+	border-width: 1px 0px 0px 1px;
+	font-size: 11pt;
+	font-family: Calibri;
+	font-weight: 100;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+.ExcelTable2007 TH {
+	/* background-image: url(excel-2007-header-bg.gif); */
+	background-repeat: repeat-x; 
+	font-weight: bold;
+	font-size: 14px;
+	border: 1px solid #555;
+	border-width: 0px 1px 1px 0px;
+	height: 17px;
+	line-height: 17px;
+	color:#008800;
+	background-color: #333;
+}
+
+.ExcelTable2007 TD {
+	border: 0px;
+	background-color: #444;
+	color:#fff;
+	padding: 0px 4px 0px 2px;
+	border: 1px solid #D0D7E5;
+	border-width: 0px 1px 1px 0px;
+}
+.ExcelTable2007 TD:hover{
+	color:#008800;
+}
+
+.ExcelTable2007 TD B {
+	border: 0px;
+	background-color: #333;
+	font-weight: bold;
+}
+
+.ExcelTable2007 TD.heading {
+	background-color: #333;
+	text-align: center;
+	border: 1px solid #555;
+	border-width: 0px 1px 1px 0px;
+	font-weight: bold;
+}
+
+
+
+.jumbotron-button {
+	color: #fff !important;
+	background-color: transparent !important;
+	border-color: lightgrey !important;
+}
+
+.jumbotron-button:hover {
+	color: #fff !important;
+	background-color: #5a6268 !important;
+	border-color: #545b62 !important;
+}
+
+.restrict-card {
+	height: 1000px;
+	overflow-y: overlay;
+}
+.fle{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.butto{
+	display: inline-block;
+	padding: 3px 5px;
+	font-size:15px;
+	background-color: transparent;
+	outline:none;
+	border:2px solid #090;
+	border-radius:3px;
+
+}
+.fas{
+	color:#080;
+	font-size:20px;
+}
+
+.heading{
+	margin: 0px;
+	padding:30px;
+}
+.inp{
+	display: inline-block;
+	padding:5px !important;
+}
+.text_inp{
+	padding:6px;
+	margin-right: 10px;
+	outline: none;
+    border: 2px solid #090;
+	border-radius:3px;
+ }
+ .bord{
+	 margin: 10px;
+	 padding:30px 0px;
+	 border: 2px solid #090;
+	 border-radius:3px;
+ }
